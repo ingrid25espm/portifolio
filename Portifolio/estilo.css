@@ -1,0 +1,221 @@
+﻿.menu {width: 100%;}
+body {
+	color: #420987;
+	background-color: white;
+}
+
+#header {
+	width: 100%;
+	height: 10vh;
+	background-color: white;
+	display: inline-block;
+}	
+.euperfil {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+  }
+.aba {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: #420987;
+	color: white;
+	cursor: pointer;
+}
+.aba.sel {
+	background-color: white;
+	color: #420987;
+}
+#conteudo {
+	width: 100%;
+	height: 80vh;
+	background-color: white;
+}
+
+/* home page */
+.intro {
+	position: relative;
+	text-align: center;
+}
+.img-intro {
+	width: 100%;
+	height: auto;
+}
+.intro-texto {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	color: white;
+	font-size: 24px;
+}
+.foto {
+	width: 100%;
+}	
+.caixaD {
+	float: right;
+	width: 50vh;
+	height: 35vh;
+}
+.img-D {
+	float: right;
+	width: 50vh;
+	height: 35vh;
+}
+.D-texto {
+	position: absolute;
+	background-color: #420987;
+	color: white;
+	font-size: 10px;
+}
+.informacoes {
+	color: #420987;
+	float: center;
+	text-align: center;
+}
+.text {
+	font-size: 30px;
+}
+.texto {
+	font-size: 20px;
+}
+.caixaE {
+	float: left;
+	width: 50vh;
+	height: 35vh;
+}
+.img-E {
+	float: right;
+	width: 50vh;
+	height: 35vh;
+}
+.E-texto {
+	position: absolute;
+	background-color: #420987;
+	color: white;
+	font-size: 10px;
+}
+
+/* sobre mim */
+.text-intro {
+	text-align: left;
+	float: left;
+	top: 12%;
+	left: 10%;
+	color: white;
+	position: absolute;
+	font-size: 36px;
+}
+.imgs {
+	float: left;
+} 
+.imagens {
+	display: inline-block;
+	width: 60vh;
+	height: 30vh;
+}
+.sobre-txt {
+	text-align: left;
+	margin-left: 50%;
+	color: #420987;
+	font-size: 42px;
+	margin-top: 15%;
+}
+
+/* interesses */
+.int {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+	justify-items: center;
+}
+.img-int {
+	text-align: center;
+}
+.image {
+	width: 92%;
+	height: 80%;
+}
+.imageD {
+	width: 100%;
+	height: 80%;
+}
+.caption {
+	margin-top: 5px;
+	font-size: 24px;
+	color: #420987;
+}
+
+/* curso */
+.intro {
+	position: relative;
+	text-align: center;
+}
+.img-intro {
+	width: 100%;
+	height: auto;
+}
+.intro-texto {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	color: white;
+	font-size: 24px;
+}
+.ft {
+	width: 80%;
+}
+
+/* curriculo */
+.curr {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	justify-items: center;
+}
+.text-img{
+	width: 95%;
+}
+
+/* trabalhos */
+.videos{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.trab {
+	text-align: center;
+	font-size: 24px;
+}
+
+/* contato */
+.img-ctt {
+	width: 40%;
+	float: left;
+}
+.text-ctt {
+	text-align: left;
+	float: left;
+	margin-top: 13%;
+	margin-left: 5%;
+	color: #420987;
+	font-size: 36px;	
+}
+#rodape {
+	width: 100%;
+	height: 20vh;
+	background-color: #420987;
+	text-align: center;
+	clear: both;
+	color: white;
+}	
+
+
+
+
+
+
+
+	
